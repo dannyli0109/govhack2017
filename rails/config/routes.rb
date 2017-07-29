@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get "/about", to: "pages#about"
 
+  get "/api/questions/finance", to: 'api/questions#finance_show'
+
 end
